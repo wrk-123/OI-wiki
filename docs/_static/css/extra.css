@@ -4,13 +4,13 @@
 }
 
 /* Code font size in <details> */
-details .highlighttable .linenos, details .md-typeset code {
+details .linenos, details code {
   font-size: inherit !important;
 }
 
 /* Code block padding removal */
-details > summary + .highlight { margin-top: 0 !important; }
-details > .highlight:last-child { margin-bottom: 0 !important; }
+details > summary + .highlight, details > summary + .highlight > .highlighttable { margin-top: 0 !important; }
+details > .highlight:last-child, details > .highlight:last-child > .highlighttable { margin-bottom: 0 !important; }
 details > .highlight { margin-left: -0.6rem !important; margin-right: -0.6rem !important; }
 
 /* Table full width */
