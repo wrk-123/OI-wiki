@@ -15,7 +15,7 @@ details > .highlight { margin-left: -0.6rem !important; margin-right: -0.6rem !i
 
 /* Table full width */
 .md-typeset__table { display: block !important; }
-.md-typeset table { display: table !important; }
+.md-typeset table:not(.highlighttable) { display: table !important; }
 
 .md-typeset table:not([class]) th {
     min-width: 0rem;
