@@ -3,8 +3,8 @@
   font-weight: initial !important;
 }
 
-/* Code block font size */
-.highlighttable .linenos, .md-typeset code {
+/* Code font size in <details> */
+details .highlighttable .linenos, details .md-typeset code {
   font-size: inherit !important;
 }
 
