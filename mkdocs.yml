@@ -534,6 +534,9 @@ theme:
 
 plugins: []
 
+hooks:
+  - hooks/on_env.py
+
 # Customization
 extra:
   disqus: 'OI-Wiki'
